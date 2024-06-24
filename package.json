@@ -1,0 +1,28 @@
+{
+  "name": "@zeeshankhan09/typescript-project03_todo_list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zeeshan Khan",
+  "license": "ISC",
+  "description": "I created a CLI TodoList manager app using TypeScript for adding multiple or single task as the user want.",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "build": "^0.1.4",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/inquirer": "^9.0.7"
+  }
+}
